@@ -7,5 +7,6 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
 
     qDebug() << "Hello world!";
+    qDebug() << "new-api";
     return a.exec();
 }
